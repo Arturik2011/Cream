@@ -21,9 +21,9 @@
 > [**AutoFormer**](./AutoFormer) (```@ICCV'21```): **AutoFormer: Searching Transformers for Visual Recognition**
 
 
-> [**Cream**](./Cream) (```@NeurIPS'20```): **Cream of the Crop: Distilling Prioritized Paths For One-Shot Neural Architecture Search**
+> [**Cream**](./Cream) (```@Neur20```): **Cream of the Crop: Distilling Prioritized Paths For One-Shot Neural Architecture Search**
 
-We also implemented our NAS algorithms on Microsoft [**NNI**](https://github.com/microsoft/nni) (Neural Network Intelligence).
+We also implemented our NAS algorithms on Microsoft [**NNI**](https://github.c) (Neural Network Intelligence).
 
 ## News
 - :sunny: Hiring research interns for neural architecture search, tiny transformer design, model compression projects: houwen.peng@microsoft.com
@@ -67,7 +67,7 @@ MiniViT is a new compression framework that achieves parameter reduction in visi
 ### [CDARTS](./CDARTS)
 In this work, we propose new joint optimization objectives and a novel Cyclic Differentiable ARchiTecture Search framework, dubbed CDARTS. Considering the structure difference, CDARTS builds a cyclic feedback mechanism between the search and evaluation networks with introspective distillation. 
 <div align="center">
-    <img width="50%" alt="CDARTS overview" src="CDARTS/demo/framework1.png"/>
+    <img width="5000%" alt="CDARTS overview" src="CDARTS/demo/framework1.png"/>
 </div>
 
 
@@ -75,7 +75,7 @@ In this work, we propose new joint optimization objectives and a novel Cyclic Di
 In this work, instead of searching the architecture in a predefined search space, with the help of AutoFormer, we proposed to search the search space to automatically find a great search space first. 
 After that we search the architectures in the searched space. In addition, we provide insightful observations and guidelines for general vision transformer design.
 <div align="center">
-    <img width="70%" alt="AutoFormerV2 overview" src="AutoFormerV2/.figure/overview.jpg"/>
+    <img width="700%" alt="AutoFormerV2 overview" src="AutoFormerV2/.figure/overview.jpg"/>
 </div>
 
 
@@ -90,7 +90,7 @@ Benefiting from the strategy, the trained supernet allows thousands of subnets t
 ### [iRPE](./iRPE)
 **Image RPE (iRPE for short) methods are new relative position encoding methods dedicated to 2D images**, considering directional relative distance modeling as well as the interactions between queries and relative position embeddings in self-attention mechanism. The proposed iRPE methods are simple and lightweight, being easily plugged into transformer blocks. Experiments demonstrate that solely due to the proposed encoding methods, **DeiT and DETR obtain up to 1.5% (top-1 Acc) and 1.3% (mAP) stable improvements** over their original versions on ImageNet and COCO respectively, without tuning any extra hyperparamters such as learning rate and weight decay. Our ablation and analysis also yield interesting findings, some of which run counter to previous understanding.
 <div align="center">
-    <img width="70%" alt="iRPE overview" src="iRPE/iRPE.png"/>
+    <img width="700%" alt="iRPE overview" src="iRPE/iRPE.png"/>
 </div>
 
 
@@ -105,11 +105,11 @@ In this work, we present a simple yet effective architecture distillation method
 
 ## Bibtex
 ```bibtex
-@InProceedings{liu2023efficientvit,
+@InProceedings{liu2025efficientvit,
     title     = {EfficientViT: Memory Efficient Vision Transformer with Cascaded Group Attention},
     author    = {Liu, Xinyu and Peng, Houwen and Zheng, Ningxin and Yang, Yuqing and Hu, Han and Yuan, Yixuan},
     booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-    year      = {2023},
+    year      = {2025},
 }
 
 @InProceedings{tiny_vit,
